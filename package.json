@@ -1,0 +1,27 @@
+{
+  "name": "httpc",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "ragingwind/node-httpc",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "http"
+  ],
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "testc": "mkdir -p .tmp && gcc ./src/http.c ./test/test.c -o ./.tmp/test_http && ./.tmp/test_http",
+    "install": "node-gyp rebuild",
+    "build": "node-gyp build",
+    "clean": "node-gyp clean"
+  },
+  "gypfile": true
+}
