@@ -4,7 +4,7 @@
   "description": "",
   "license": "MIT",
   "main": "index.js",
-  "repository": "ragingwind/node-httpc",
+  "repository": "ragingwind/httpc",
   "engines": {
     "node": ">=0.10.0"
   },
